@@ -1,0 +1,2 @@
+# rShape
+Random shapes generator
