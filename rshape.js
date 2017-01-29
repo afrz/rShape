@@ -60,7 +60,8 @@
   };
 
   doodle.prototype.resize = function () {
-    this.canvas.width = window.innerWidth > 1000 ? 1000 : window.innerWidth;
+    this.canvas.width = window.innerWidth / 2;
+    this.canvas.height = window.innerHeight / 2;
     this.redraw();
   };
 
